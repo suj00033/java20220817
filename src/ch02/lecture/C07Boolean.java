@@ -7,5 +7,6 @@ public class C07Boolean {
 		
 		boolean a = true;
 		a = false;
+		System.out.println(a);
 	}
 }
