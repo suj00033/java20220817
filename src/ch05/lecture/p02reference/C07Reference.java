@@ -5,8 +5,8 @@ public class C07Reference {
 		int[] a = {9, 8, 7};
 		System.out.println(a[0]);					// 9
 		
-		a = changeItem(a);
-		
+		a = changeItem(a);							// 호출받은곳으로 리턴하여 주소값이 23>30
+													// 으로 변경됨
 		System.out.println(a[0]);       			// 3
 	}
 

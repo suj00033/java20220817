@@ -13,7 +13,7 @@ public class C05Reference {
 		System.out.println(b[0]);
 	}
 
-	private static void changeItem(int[] a) {
-		a[0] = 3;
+	private static void changeItem(int[] arr) {
+		arr[0] = 3;
 	}
 }
