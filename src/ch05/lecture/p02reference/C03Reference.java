@@ -9,7 +9,7 @@ public class C03Reference {
 		
 		System.out.println(b[2]); // 5
 		
-		a = new int[] {9, 8, 7};	
+		a = new int[] {9, 8, 7};	// new int[] 호출될때마다 새로운 주소를 할당
 		
 		System.out.println(b[2]); // 5,     배열a만 변경됨
 		
