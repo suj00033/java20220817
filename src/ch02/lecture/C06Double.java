@@ -30,5 +30,14 @@ public class C06Double {
 		
 		double h = f + g;
 		System.out.println(h); // 실수 근사값을 구하는데 주의할 점이 필요하다
+		
+		
+		System.out.println(half(5));
+	}
+	public static double half(double a) {
+		return a /2;
+	}
+	public static int half(int a) {
+		return a /2;
 	}
 }

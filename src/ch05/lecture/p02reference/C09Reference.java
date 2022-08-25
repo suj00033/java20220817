@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class C09Reference {
 	public static void main(String[] args) {
-		int[][] a = {{5,4}, {100,200}, {9}};
+int[][] a = {{5, 4}, {100, 200}, {9}};
 		
 		System.out.println(Arrays.deepToString(a));
 		
@@ -14,10 +14,10 @@ public class C09Reference {
 		
 		a[0][0] = 55;
 		
-		System.out.println(b[0][0]);
+		System.out.println(b[0][0]); // 55
 		
-		a[0] = new int[] {7,5};
-		System.out.println(a[0][0]);
-		System.out.println(b[0][0]);            //int[][] b = a;
+		a[0] = new int[] {7, 5};
+		System.out.println(a[0][0]); // 7
+		System.out.println(b[0][0]); // ??
 	}
 }
