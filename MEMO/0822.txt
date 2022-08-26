@@ -1,0 +1,28 @@
+1. SWITCH 구문: break을 만나면 실행종료
+2. For 구문: 구문을 반복으로 실행
+3. sysout에서 print로 치면 엔터없이 출력됨
+   sysout() 새로운 공백줄로 출력됨
+4. While 구문: for문과 비슷
+5. Continue 구문  
+
+
+
+프로그래머스: 코딩 연습사이트
+class Solution {
+    public long solution(int a, int b) {
+        long answer = 0;
+            if(a<b) {
+                for(int i = a; i<=b; i++) {
+                    answer += i;
+                }
+            } else {
+                for(int i = b; i<=a; i++) {
+                    answer += i;
+                }
+            }
+        return answer;
+    }
+}
+
+백준, leetcode
+

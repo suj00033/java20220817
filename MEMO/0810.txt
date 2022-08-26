@@ -1,0 +1,13 @@
+0810
+
+1) if
+   else
+   else-if : if와 else 사이에 존재, 여러개 들어가도 가능
+   
+	{false}일때는 출력XXX
+
+2) function check() 호출하고나서야 출력실행
+
+3) switch 
+   분기 branch
+   case 사이와 break 사이를 코드 블럭이라고 한다.
