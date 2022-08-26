@@ -1,14 +1,13 @@
 package p99codingbat;
-
+//sameFirstLast
 public class Array2 {
-public static void main(String[] args) {
-//	public boolean sameFirstLast(int[] nums) {
-//		  if(nums.length>=1 && nums[0]==nums[nums.length-1]) {
-//		    return true;
-//		  } else {
-//		    return false;
-//		  }
-//		}
+	public boolean sameFirstLast(int[] nums) {
+		  if(nums.length>=1 && nums[0]==nums[nums.length-1]) {
+		    return true;
+	  } else {
+		    return false;
+		  }
+		}
 	
 	
 //	if (nums.length > 0) {
@@ -19,4 +18,4 @@ public static void main(String[] args) {
 //	}
 //	return false;
 }
-}
+
