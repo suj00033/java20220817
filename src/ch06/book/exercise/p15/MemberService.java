@@ -8,6 +8,7 @@ public class MemberService {
 			return false;
 		}
 	}
+	// return ud.equals("hong") && password.equals("12345")
 	
 	void logout(String id) {
 		System.out.println("로그아웃 되었습니다.");
