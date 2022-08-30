@@ -1,6 +1,6 @@
-package p99codingbat;
+package p99codingbat.Warmup1;
 
-public class WarmUp2 {
+public class Diff21 {
 		public int diff21(int n) {
 			  int diff = 21-n;
 			  

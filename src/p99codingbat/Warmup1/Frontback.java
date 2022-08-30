@@ -1,6 +1,6 @@
-package p99codingbat;
+package p99codingbat.Warmup1;
 
-public class WarmUp1frontback {
+public class Frontback {
 	public String frontBack(String str) {
 		if (str.length() <= 1) {
 			return str;						// 문자열 길이가 1과 같거나 작으면 그대로 문자열 출력

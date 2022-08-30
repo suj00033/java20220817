@@ -1,6 +1,6 @@
-package p99codingbat;
+package p99codingbat.Warmup1;
 
-public class WarmUp6 {
+public class PosNeg {
 	public boolean posNeg(int a, int b, boolean negative) {
 		  if(negative) {
 		    return a<0&&b<0;

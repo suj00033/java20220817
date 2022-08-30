@@ -1,6 +1,6 @@
-package p99codingbat;
+package p99codingbat.Warmup1;
 
-	public class WarmUp1 {
+	public class SumDouble {
 		public int sumDouble(int a, int b) {
 			int sum = a + b;
 

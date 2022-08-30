@@ -1,6 +1,6 @@
-package p99codingbat;
+package p99codingbat.Warmup1;
 
-public class WarmUp3 {
+public class ParrotTrouble {
 	public boolean parrotTrouble(boolean talking, int hour) {
 		  return talking && ((hour<7) | (hour>20));
 		}
