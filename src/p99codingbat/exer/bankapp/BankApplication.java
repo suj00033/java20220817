@@ -43,15 +43,15 @@ public class BankApplication {
         System.out.println("계좌 생성");
         System.out.println("----------");
         
-        // scanner 입력창을 전부 nextLine으로 통일
+        // scanner 입력창을 전부 next()으로 통일
         // String으로 받은 금액 balance 다시 Integer.parseInt를
         // 사용해서 int형으로 변환
-        System.out.println("계좌번호: ");
-        String ano = scanner.nextLine();
-        System.out.println("계좌주: ");
-        String owner = scanner.nextLine();
-        System.out.println("초기입금액: ");
-        String strBalance = scanner.nextLine();
+        System.out.print("계좌번호: ");
+        String ano = scanner.next();
+        System.out.print("계좌주: ");
+        String owner = scanner.next();
+        System.out.print("초기입금액: ");
+        String strBalance = scanner.next();
         int balance = Integer.parseInt(strBalance); // 문자열을 int형으로 반환
         
         // scanner로 입력받은 사용자 정보를 아래의 객체로 생성
@@ -92,10 +92,10 @@ public class BankApplication {
         System.out.println("----------");
         
         System.out.print("계좌번호: ");
-        String ano = scanner.nextLine();
+        String ano = scanner.next();
         
         System.out.println("예금액: ");
-        String strBalance = scanner.nextLine();
+        String strBalance = scanner.next();
         int balance = Integer.parseInt(strBalance);
         
         Account account = findAccount(ano);
@@ -117,10 +117,10 @@ public class BankApplication {
         System.out.println("----------");
         
         System.out.print("계좌번호: ");
-        String ano = scanner.nextLine();
+        String ano = scanner.next();
         
         System.out.print("출금액: ");
-        String strBalance = scanner.nextLine();
+        String strBalance = scanner.next();
         int balance = Integer.parseInt(strBalance);
         
         Account account = findAccount(ano);
