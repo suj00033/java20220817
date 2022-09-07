@@ -12,5 +12,15 @@ public class C01If {
 			System.out.println("실행3");
 		}
 		System.out.println("실행4");
+		
+int[] s = {2, 13, 45, 65 ,45};
+		
+		for(int i : s) {
+			System.out.println(i);
+		}
+		 String s1 = "Hello World";
+		  char[] charArr = s1.toCharArray();
+		  System.out.println(charArr);
+	
 	}
 }
