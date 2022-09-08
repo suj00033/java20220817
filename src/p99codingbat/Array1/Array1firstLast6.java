@@ -1,4 +1,4 @@
-package p99codingbat;
+package p99codingbat.Array1;
 //firstLast
 
 //public class Array1 {

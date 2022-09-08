@@ -1,4 +1,4 @@
-package p99codingbat;
+package p99codingbat.Array1;
 
 public class sum13 {
 	public static void main(String[] args) {

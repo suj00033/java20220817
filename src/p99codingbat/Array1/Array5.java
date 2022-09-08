@@ -1,4 +1,4 @@
-package p99codingbat;
+package p99codingbat.Array1;
 
 public class Array5 {
 	public static void main(String[] args) {

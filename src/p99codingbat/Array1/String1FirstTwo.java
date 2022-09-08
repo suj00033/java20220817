@@ -1,4 +1,4 @@
-package p99codingbat;
+package p99codingbat.Array1;
 
 public class String1FirstTwo {
 	public String firstTwo(String str) {

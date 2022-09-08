@@ -1,4 +1,4 @@
-package p99codingbat;
+package p99codingbat.Array1;
 	// centeredAverage
 public class Array2centerdAverage {
 	public int centeredAverage(int[] nums) {

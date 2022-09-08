@@ -1,4 +1,4 @@
-package p99codingbat;
+package p99codingbat.Array1;
 
 public class Array2sum13 {
 	public int sum13(int[] nums) {

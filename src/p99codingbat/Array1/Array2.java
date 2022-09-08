@@ -1,4 +1,4 @@
-package p99codingbat;
+package p99codingbat.Array1;
 //sameFirstLast
 public class Array2 {
 	public boolean sameFirstLast(int[] nums) {
