@@ -9,7 +9,7 @@ public class C01List {
 		List<String> list1 = new ArrayList<>();
 		
 		// add : element(item) 추가
-//		list1.add(3);                  String이므로 숫자는 x
+//		list1.add(3);                  				String이므로 숫자는 x
 		list1.add("coyote");						// 0번 인덱스
 		list1.add("phoenix");						// 1번 인덱스
 		list1.add("goose");							// 2번 인덱스

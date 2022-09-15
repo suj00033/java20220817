@@ -12,7 +12,7 @@ public class C09ThreadSafe {
 			}
 		});
 		Thread t2 = new Thread(() -> {
-			for(int i=0; i<20; i++) {
+			for(int i=0; i<1000000; i++) {
 				val.incrementAndGet();
 			}
 		});
