@@ -1,4 +1,4 @@
-package java20220817;
+package leetcode.java;
 
 import java.util.*;
 
