@@ -24,7 +24,7 @@ public class C02TerminalOperation {
 		// findFirst : 첫번째 element (종료연산)
 		Stream<String> str2 = List.of("java", "css", "spring", "html", "jsp").stream();
 		Optional<String> opt2 = str2.findFirst();			// 오류가 나는 이유는 이미 findAny에서 사용한뒤 흘러갔기 때문에
-		System.out.println("없네요.");						// 재사용이 되지않는다. 다시 만들어야 실행가능
+		System.out.println(opt2.orElse("없네요."));						// 재사용이 되지않는다. 다시 만들어야 실행가능
 	
 		// max : 가장 큰 element (종료연산)
 		Stream<String> str3 = List.of("java", "css", "spring", "jsp", "html").stream();
@@ -34,9 +34,9 @@ public class C02TerminalOperation {
 		// 문자열이 포함되어있으며 비교불가능한 지점일 경우, 아스키 값 기준으로 리턴
 		
 		// min : 가장 작은 element (종료연산)
-		Stream<String> str4 = List.of("java", "css", "spring", "jsp", "html").stream();
-		Optional<String> opt4 = str3.max((a, b) -> a.compareTo(b));
-		System.out.println(opt4.get());
+		Stream<String> stream4 = List.of("java", "css", "spring", "html", "jsp").stream();
+		Optional<String> option4 = stream4.min((a, b) -> a.compareTo(b));
+		System.out.println(option4.get());
 		
 		// IntStream
 		IntStream str5 = IntStream.of(100, 200, 50, -50, 7, 6);
